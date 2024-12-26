@@ -1,6 +1,10 @@
 header{
     background-color: #4C772D;
 }
+#social-media ,#copyright{
+    background:#4C772D;
+    color: white;
+}
 .img-depoimento {
     background-position: center center;
     background-size: cover;
@@ -13,3 +17,18 @@ header{
     background-size: contain;
     text-align: center;
 }
+
+.footer{
+    background: #383838;
+    color: #fff;
+    font-size: 16px;
+}
+.social-image{
+    filter: invert(1);
+}
+.preco {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #83BB28;
+}
+
