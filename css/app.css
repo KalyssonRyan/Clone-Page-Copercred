@@ -1,3 +1,15 @@
 header{
     background-color: #4C772D;
 }
+.img-depoimento {
+    background-position: center center;
+    background-size: cover;
+    border-radius: 100%;
+    width: 260px;
+    height: 260px;
+}
+.bg-img-depoimento {
+    background: url(../img/bg-foto-depoimento.png) no-repeat center center;
+    background-size: contain;
+    text-align: center;
+}
