@@ -11,6 +11,9 @@ ul li a {
     font-size: 18px;
     color: white;
 }
+.nav-item a:hover {
+    color:#83BB28;
+}
 #social-media ,#copyright{
     background:#4C772D;
     color: white;
@@ -69,10 +72,10 @@ ul li a {
 }
 a:hover {
     color: #4C772D;
-    text-decoration: underline;
+    
 }
 
-.card  .bg {
+.bg {
     background: rgba(131, 187, 40, 0.5);
     position: absolute;
     width: 100%;
@@ -80,9 +83,9 @@ a:hover {
     display: none;
     z-index: 9998;
 }
-.card:hover .bg {
+.col-md-3.mb-4.text-center:hover .bg {
     display: block;
 }
-.card a:hover .caption {
+.card:hover .caption {
     bottom: 0;
 }
