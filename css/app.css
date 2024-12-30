@@ -1,6 +1,16 @@
 header{
     background-color: #4C772D;
 }
+.offcanvas{
+    background-color: #4C772D;
+}
+ul li a {
+    color: #FFF;
+}
+.nav-link{
+    font-size: 18px;
+    color: white;
+}
 #social-media ,#copyright{
     background:#4C772D;
     color: white;
