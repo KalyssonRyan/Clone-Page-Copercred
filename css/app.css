@@ -85,7 +85,8 @@ a:hover {
 }
 .col-md-3.mb-4.text-center:hover .bg {
     display: block;
+    cursor: pointer;
 }
 .card:hover .caption {
-    bottom: 0;
+    bottom: 50%;
 }
