@@ -1,23 +1,30 @@
-header{
+header {
     background-color: #4C772D;
 }
-.offcanvas{
+
+.offcanvas {
     background-color: #4C772D;
 }
+
 ul li a {
     color: #FFF;
 }
-.nav-link{
+
+.nav-link {
     font-size: 18px;
     color: white;
 }
+
 .nav-item a:hover {
-    color:#83BB28;
+    color: #83BB28;
 }
-#social-media ,#copyright{
-    background:#4C772D;
+
+#social-media,
+#copyright {
+    background: #4C772D;
     color: white;
 }
+
 .img-depoimento {
     background-position: center center;
     background-size: cover;
@@ -25,20 +32,23 @@ ul li a {
     width: 260px;
     height: 260px;
 }
+
 .bg-img-depoimento {
     background: url(../img/bg-foto-depoimento.png) no-repeat center center;
     background-size: contain;
     text-align: center;
 }
 
-.footer{
+.footer {
     background: #383838;
     color: #fff;
     font-size: 16px;
 }
-.social-image{
+
+.social-image {
     filter: invert(1);
 }
+
 .preco {
     font-size: 1.5em;
     font-weight: bold;
@@ -50,6 +60,7 @@ ul li a {
     background-color: #83BB28;
     color: white;
 }
+
 .caption {
     position: absolute;
     width: 100%;
@@ -58,11 +69,13 @@ ul li a {
     z-index: 9999;
     bottom: 110%;
 }
+
 .card {
     height: 100%;
     border: 1px solid #CECECE;
     overflow: hidden;
 }
+
 .card a {
     display: inline-block;
     text-decoration: none;
@@ -70,9 +83,10 @@ ul li a {
     position: relative;
     height: 100%;
 }
+
 a:hover {
     color: #4C772D;
-    
+
 }
 
 .bg {
@@ -83,10 +97,12 @@ a:hover {
     display: none;
     z-index: 9998;
 }
+
 .col-md-3.mb-4.text-center:hover .bg {
     display: block;
     cursor: pointer;
 }
+
 .card:hover .caption {
     bottom: 50%;
 }
