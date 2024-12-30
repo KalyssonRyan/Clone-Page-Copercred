@@ -42,3 +42,47 @@ ul li a {
     color: #83BB28;
 }
 
+.caption span {
+    display: inline;
+    background-color: #83BB28;
+    color: white;
+}
+.caption {
+    position: absolute;
+    width: 100%;
+    color: var(--bs-white);
+    transition: all 0.15s ease-in-out;
+    z-index: 9999;
+    bottom: 110%;
+}
+.card {
+    height: 100%;
+    border: 1px solid #CECECE;
+    overflow: hidden;
+}
+.card a {
+    display: inline-block;
+    text-decoration: none;
+    color: #515151;
+    position: relative;
+    height: 100%;
+}
+a:hover {
+    color: #4C772D;
+    text-decoration: underline;
+}
+
+.card  .bg {
+    background: rgba(131, 187, 40, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 9998;
+}
+.card:hover .bg {
+    display: block;
+}
+.card a:hover .caption {
+    bottom: 0;
+}
